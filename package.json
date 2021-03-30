@@ -1,6 +1,6 @@
 {
   "name": "pqa-react-trix",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "description": "React wrapper around Basecamp's Trix editor modified for PlusQA.",
   "main": "main.js",
   "scripts": {
