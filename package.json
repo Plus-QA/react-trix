@@ -1,6 +1,6 @@
 {
   "name": "pqa-react-trix",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "React wrapper around Basecamp's Trix editor modified for PlusQA.",
   "main": "main.js",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Plus-QA/react-trix"
+    "url": "git+https://github.com/Plus-QA/react-trix.git"
   },
   "keywords": [
     "react",
@@ -25,10 +25,7 @@
     "editor",
     "trix-editor"
   ],
-  "author": {
-    "name": "Dominic St-Pierre",
-    "email": "dominicstpierre@gmail.com"
-  },
+  "author": "Dominic St-Pierre <dominicstpierre@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dstpierre/react-trix/issues"
@@ -58,5 +55,9 @@
     "LICENSE",
     "main.js"
   ],
-  "types": "lib/react-trix.d.ts"
+  "types": "lib/react-trix.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  }
 }
