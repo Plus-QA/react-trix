@@ -1,6 +1,6 @@
 {
   "name": "pqa-react-trix",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "description": "React wrapper around Basecamp's Trix editor modified for PlusQA.",
   "main": "main.js",
   "scripts": {
@@ -34,6 +34,7 @@
   "dependencies": {
     "@babel/helper-compilation-targets": "^7.13.13",
     "@babel/helper-validator-identifier": "^7.12.11",
+    "@babel/plugin-syntax-class-properties": "^7.12.13",
     "is-core-module": "^2.2.0",
     "trix": "^1.2.2"
   },

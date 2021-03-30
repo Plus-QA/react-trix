@@ -158,10 +158,10 @@ export class TrixEditor extends React.Component<TrixEditorProps, TrixEditorState
     //form.append("Content-Type", "multipart/form-data");
     form.append((this.props.fileParamName || "file"), file);
     xhr = new XMLHttpRequest();
-    if (this.props.uploadCSRF) {
-     xhr.setRequestHeader("X-CSRF-Token", this.props.uploadCSRF);
-    }
     xhr.open("POST", this.props.uploadURL, true);
+    if (this.props.uploadCSRF) {
+      xhr.setRequestHeader("X-CSRF-Token", this.props.uploadCSRF);
+    }
     xhr.upload.onprogress = (event) => {
       var progress = event.loaded / event.total * 100;
       return attachment.setUploadProgress(progress);
