@@ -1,7 +1,7 @@
 {
-  "name": "react-trix",
+  "name": "pqa-react-trix",
   "version": "0.8.0",
-  "description": "React wrapper around Basecamp's Trix editor.",
+  "description": "React wrapper around Basecamp's Trix editor modified for PlusQA.",
   "main": "main.js",
   "scripts": {
     "build": "npm run build:lib && parcel build src/react-trix.tsx",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dstpierre/react-trix"
+    "url": "https://github.com/Plus-QA/react-trix"
   },
   "keywords": [
     "react",
